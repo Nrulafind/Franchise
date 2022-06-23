@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
 
+.container{
+}
 nav{
     margin-top: 10px;
 }
@@ -30,8 +32,50 @@ nav{
     font-size: 26px;
     color: aliceblue!important;
 }
-.HB{
+.background-header{
     position: absolute;
-    bottom: 80px;
-    position: fixed;
+    top: -10px;
+    left: -93px;
+    z-index: -1;
+}
+.Img-Head{
+    width: 700px;
+    height: 360px;
+}
+.Head-Text{
+    color: aliceblue;
+}
+.Head-Text h1{
+    font-family: 'Quicksand';
+    font-size: 32px;    
+}
+.card-body1{
+    position: absolute;
+    width: 1350px;
+    height: 517px;
+    left: -2px;
+    top: 787px;
+    
+    background: #7BE3DD;
+    border-radius: 100px 100px 0px 0px;
+}
+.card-body2{
+    position: absolute;
+    width: 1350px;
+    height: 517px;
+    left: -2px;
+    top: 1162px;
+
+    background: #77EC91;
+    border-radius: 100px 100px 0px 0px;
+}
+.card-body3{
+    position: absolute;
+    width: 1350px;
+    height: 517px;
+    left: -2px;
+    top: 1574px;
+
+    background: #001923;
+    border-radius: 100px 100px 0px 0px;
 }

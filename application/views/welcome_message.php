@@ -1,20 +1,15 @@
 <!doctype html>
 <html lang="en">
 
-<<<<<<< HEAD
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-=======
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
->>>>>>> 3c61d54e48c5c8d73bfb3b2571d74fc57ac7613a
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css');?>">
 
-	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" href="../views/css/style.css">
 
 	<title>FriendChise</title>
 </head>
@@ -23,7 +18,7 @@
 
 	<!-- Navbar Start -->
 
-	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">
 			<a class="navbar-brand" href="#">FriendChise</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,24 +40,45 @@
 					</li>
 				</ul>
 			</div>
+			<div class="background-header">
+ 				<img src="<?php echo base_url('assets/images/HeaderBackground.png');?>" alt="HeaderBackground" class="HB">
+			</div>
 		</div>
 	</nav>
 
-<<<<<<< HEAD
+
 	<!-- Navbar End -->
-=======
-<div class="background-header">
-  <img src="images/HeaderBackground.png" alt="HeaderBackground" class="HB">
-</div>
->>>>>>> 3c61d54e48c5c8d73bfb3b2571d74fc57ac7613a
 
 	<!-- Header Starts -->
 
-	<div class="background-header">
-		<img src="images/HeaderBackground.png" alt="HeaderBackground" class="HB">
-	</div>
+	<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="<?php echo base_url('assets/images/ImgHeader.png');?>" class="Img-Head d-block mx-lg-auto img-fluid">
+      </div>
+      <div class="col-lg-6 Head-Text">
+        <h1 class="display-5 fw-bold lh-1 mb-3 ">Find Your Best Franchise</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, facere veniam? Maiores, minima autem praesentium quia dolor repudiandae consectetur inventore?</p>
+      </div>
+    </div>
+  </div>
 
 	<!-- Header Ends -->
+
+	<!-- Body Starts -->
+
+	<div class="container">
+		<div class="card-body1"></div>
+		<div class="img-body">
+			<img src="<?php echo base_url('assets/images/ImgBody.png');?>" alt="">
+		</div>
+		<div class="card-body2"></div>
+		<div class="card-body3"></div>
+	</div>
+
+	<!-- Body Ends -->
+
+	
 
 	<!-- Optional JavaScript; choose one of the two! -->
 

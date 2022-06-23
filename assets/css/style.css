@@ -79,3 +79,24 @@ nav{
     background: #001923;
     border-radius: 100px 100px 0px 0px;
 }
+.littext{
+    position: absolute;
+    top: 80px;
+    right: 503px;
+
+    font-family: 'Quicksand';
+    font-weight: bold;
+}
+.h3text{
+    position: absolute;
+    top: 100px;
+    right: 189px;
+    width: 420px;
+    height: 80px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}

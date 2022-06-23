@@ -68,9 +68,16 @@
 	<!-- Body Starts -->
 
 	<div class="container">
-		<div class="card-body1"></div>
-		<div class="img-body">
-			<img src="<?php echo base_url('assets/images/ImgBody.png');?>" alt="">
+		<div class="card-body1">	
+			<div class="img-body ">
+				<img src="<?php echo base_url('assets/images/ImgBody.png');?>" class="imgbody">
+			</div>
+			<div class="text-body">
+				<p class="littext">
+					#UasMoment
+				</p>
+				<h3 class="h3text">From 5 people for final exam scores</h3>
+			</div>
 		</div>
 		<div class="card-body2"></div>
 		<div class="card-body3"></div>

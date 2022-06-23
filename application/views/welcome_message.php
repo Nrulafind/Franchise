@@ -76,7 +76,13 @@
 				<p class="littext">
 					#UasMoment
 				</p>
-				<h3 class="h3text">From 5 people for final exam scores</h3>
+				<h3 class="h3text">
+					From 5 people for final exam scores
+				</h3>
+				<p class="desc1">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. At eos aspernatur numquam voluptatem vero sed eveniet delectus tempora? Officia, recusandae!
+				</p>
+				<a href="" class="RM">Readmore</a>
 			</div>
 		</div>
 		<div class="card-body2"></div>

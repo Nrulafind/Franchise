@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+nav{
+    margin-top: 10px;
+}
+.nav-item{
+    padding: 15px;
+}
+.nav-item a{
+    color: aliceblue!important;
+    font-family: 'Quicksand';
+    font-weight: 400;
+}
+.active{
+    font-weight: bold!important;
+}
+.login{
+    background-color: #6096BA;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    font-weight: 600!important;
+    letter-spacing: 1px;
+}
+.navbar-brand{
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: aliceblue!important;
+}
+.HB{
+    position: absolute;
+    bottom: 80px;
+    position: fixed;
+}

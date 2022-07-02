@@ -30,7 +30,8 @@ class Auth extends CI_Controller
         }
         if ($username = $this->input->post('username')) {
             $password = $this->input->post('password');
-            if ($user = $this->auth_model->register($username, $password)) {
+            $email = $this->input->post('email');
+            if ($user = $this->auth_model->register($username, $password, $email)) {
                 $this->session->set_userdata($user);
                 echo json_encode('sukses');
             } else {

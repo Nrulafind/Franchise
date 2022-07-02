@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
+
+*{
+    font-family: 'Quicksand';
+}
+
+/* Navbar */
+
+nav{
+    margin-top: 25px;
+}
+
+.navbar-brand h4{
+    font-family: 'MuseoModerno';
+    font-weight: 600; 
+}
+
+.active{
+    font-weight: 600;
+    border-bottom: 2px solid;
+    border-color: #4FCB8F;
+}
+
+.nav-item{
+    margin: 0 20px;
+}
+
+.nav-item:hover{
+    font-weight: 600;
+}
+
+.nav-item .login{
+    position: absolute;
+    background-color: #4FCB8F;
+    color: aliceblue!important;
+    width: 106px;
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+/* Header Heroes */
+
+.title-head{
+    font-weight: 600!important;
+}
+
+span{
+    color: #4FCB8F;
+}
+
+.text-head{
+    font-size: 16px;
+}
+
+.button-head{
+    background-color: #3AB178;
+    color: aliceblue;
+    width: 200px;
+}
+
+/* Body Content */
+
+.text-body{
+    font-weight: 600;
+}
+
+.card{
+    border-radius: 30px;
+    width: 354px;
+    height: 401px!important;
+}
+
+small a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+small a:hover{
+    text-decoration: none;
+    color: #4acf8f;
+}
+
+/* Carousel */
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+/* Carousel Content */
+
+
+/* News Content */
+.button-content{
+    background-color: #3AB178;
+    color: aliceblue;
+    width: 200px;
+}
+
+/* Footer */
+
+.copyright{
+    color: black!important;
+}
+
+footer a{
+    color: rgb(88, 88, 88)!important;
+}

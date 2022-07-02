@@ -6,7 +6,10 @@ class Homepage extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('AuthModel');
+        if ($this->session->userdata('status') !== 'login') {
+            redirect('/');
+        }
+        $this->load->model('masakan_model');
     }
 
     public function index()

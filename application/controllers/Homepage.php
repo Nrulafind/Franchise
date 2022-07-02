@@ -12,8 +12,8 @@ class Homepage extends CI_Controller
     //     }
     //     $this->load->model('HomepageModel');
     // }
-    public function index()
-    {
-        $this->load->view('homepage/homepage_before');
-    }
+    // public function index()
+    // {
+    //     $this->load->view('homepage/homepage_before');
+    // }
 }

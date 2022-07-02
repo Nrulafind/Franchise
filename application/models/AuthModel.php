@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Auth_model extends CI_Model
+class AuthModel extends CI_Model
 {
 
     protected $table = 'user';
@@ -27,10 +27,11 @@ class Auth_model extends CI_Model
         }
     }
 
-    public function register($username, $password)
+    public function register($username, $password, $email)
     {
         $data = array(
             'username' => $username,
+            'email' => $email,
             'password' => password_hash($password, PASSWORD_DEFAULT)
         );
         $this->db->insert($this->table, $data);

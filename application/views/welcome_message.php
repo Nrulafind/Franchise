@@ -1,112 +1,180 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css');?>">
+    <link rel="stylesheet" href="assets/css/style.css">
 
+    <title>FriendChise</title>
+  </head>
+  <body>
+      
+    <!-- Navbar Start -->
 
-	<title>FriendChise</title>
-</head>
-
-<body>
-
-	<!-- Navbar Start -->
-
-	<nav class="navbar navbar-expand-lg navbar-light">
-		<div class="container">
-			<a class="navbar-brand" href="#">FriendChise</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ms-auto">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Features</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Pricing</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link login" href="#">Login</a>
-					</li>
-				</ul>
-			</div>
-			<div class="background-header">
- 				<img src="<?php echo base_url('assets/images/HeaderBackground.png');?>" alt="HeaderBackground" class="HB">
-			</div>
-		</div>
-	</nav>
-
-
-	<!-- Navbar End -->
-
-	<!-- Header Starts -->
-
-	<div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="<?php echo base_url('assets/images/ImgHeader.png');?>" class="Img-Head d-block mx-lg-auto img-fluid">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <h4>FriendChise</h4>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Franchise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link login" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="col-lg-6 Head-Text">
-        <h1 class="display-5 fw-bold lh-1 mb-3 ">Find Your Best Franchise</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, facere veniam? Maiores, minima autem praesentium quia dolor repudiandae consectetur inventore?</p>
+    </nav>
+
+    <!-- Navbar End-->
+
+    <!-- Header Start -->
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6 position-relative">
+          <img src="assets/images/HeaderImg.png" class="d-block mx-auto img-fluid img-header" alt="Img1" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-lighter lh-1 mb-3 title-head">Find your best <span>FranChise</span></h1>
+          <p class="lead text-head">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo consequatur sunt incidunt obcaecati debitis sequi amet perspiciatis explicabo, expedita nemo?</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-lg px-6 me-md-2 button-header outline-none button-head">Franchise</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-	<!-- Header Ends -->
+    <!-- Header End -->
 
-	<!-- Body Starts -->
+    <!-- Body Content Start -->
 
-	<div class="container">
-		<div class="card-body1">	
-			<div class="img-body ">
-				<img src="<?php echo base_url('assets/images/ImgBody.png');?>" class="imgbody">
-			</div>
-			<div class="text-body">
-				<p class="littext">
-					#UasMoment
-				</p>
-				<h3 class="h3text">
-					From 5 people for final exam scores
-				</h3>
-				<p class="desc1">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. At eos aspernatur numquam voluptatem vero sed eveniet delectus tempora? Officia, recusandae!
-				</p>
-				<a href="" class="RM">Readmore</a>
-			</div>
-		</div>
-		<div class="card-body2">
-			<div class="img-body2">
-				<img src="<?php echo base_url('assets/images/ImgBody2.png');?>" class="imgbody2" alt="">
-			</div>
-		</div>
-		<div class="card-body3"></div>
-	</div>
+    <div class="container px-4 py-5 body-content" id="custom-cards">
+      <h2 class="pb-2 border-bottom text-body">FriendChise Category</h2>
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/images/Food.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold card-text">The <br> Delicious <br> Food </h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="assets/images/Logo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <small class="link"><a href="#">Beverage &nbsp;
+                    <i class="fa-solid fa-caret-right"></i>
+                  </a></small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/images/Beverage.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold card-text">Enjoy <br> The Beverages</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="assets/images/Logo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <small class="link"><a href="#">Beverage &nbsp;
+                    <i class="fa-solid fa-caret-right"></i>
+                  </a></small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('assets/images/FnB.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold card-text">Everything <br> You <br> Want</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="assets/images/Logo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <small class="link"><a href="#">FnB &nbsp;
+                    <i class="fa-solid fa-caret-right"></i>
+                  </a></small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<!-- Body Ends -->
+    <!-- News Starts -->
 
-	
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="news-text">
+        <h2 class="pb-2 border-bottom title">FriendChise News</h2>
+      </div>
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="assets/images/ExcitingNews.png" class="d-block mx-lg-auto img-fluid" width="250" height="100">
+        </div>
+        <div class="col-lg-6">
+          <h4>Title</h4>
+          <p>desc</p>
+          <h4>title</h4>
+          <p>desc</p>
+          <h4>title</h4>
+          <p>desc</p>
+          <h4>title</h4>
+          <p>desc</p>
+          <h4>title</h4>
+          <p>desc</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-lg px-6 me-md-2 button-content outline-none">Franchise News</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<!-- Optional JavaScript; choose one of the two! -->
+    <!-- News End -->
 
-	<!-- Option 1: Bootstrap Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Body Content End -->
+    
+    <!-- Footer Start -->
 
-	<!-- Option 2: Separate Popper and Bootstrap JS -->
-	<!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-</body>
+    <div class="container footer">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-3 d-flex align-items-center footer copyright">
+          <span class="copyright"> &copy;<script>document.write(new Date().getFullYear())</script> - FriendChise</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex footer sosmed">
+          <li class="ms-3"><a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+          <li class="ms-3"><a href="#"><i class="fa-brands fa-tiktok fa-lg"></i></svg></a></li>
+          <li class="ms-3"><a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+        </ul>
+      </footer>
+    </div>
 
+    <!-- Footer End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/25af777db1.js" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -128,3 +128,7 @@ nav{
     border-radius: 5px;
     text-decoration: none;
 }
+.card-body2 img{
+    position: absolute;
+    right: 200px;
+}

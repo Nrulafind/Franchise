@@ -85,7 +85,11 @@
 				<a href="" class="RM">Readmore</a>
 			</div>
 		</div>
-		<div class="card-body2"></div>
+		<div class="card-body2">
+			<div class="img-body2">
+				<img src="<?php echo base_url('assets/images/ImgBody2.png');?>" class="imgbody2" alt="">
+			</div>
+		</div>
 		<div class="card-body3"></div>
 	</div>
 

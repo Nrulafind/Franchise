@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/access.css">
+    <link rel="stylesheet" href="<?php echo base_url('./assets/css/access.css'); ?>">
 
     <title>FriendChise</title>
   </head>
@@ -16,8 +16,8 @@
     <!-- Login Start -->
 
     <main class="form-signin">
-        <form>
-          <img class="mb-4" src="assets/images/Logo-xl.png" alt="" width="250" height="145">
+        <form action="" method="post">
+          <img class="mb-4" src="<?php echo base_url('./assets/images/Logo-xl.png');?>" alt="" width="250" height="145">
           <br><br><br><br>
 
       

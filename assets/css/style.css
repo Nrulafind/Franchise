@@ -82,21 +82,16 @@ small a:hover{
     color: #4acf8f;
 }
 
-/* Carousel */
-
-.swiper {
-    width: 600px;
-    height: 300px;
-}
-
-/* Carousel Content */
-
-
 /* News Content */
+
 .button-content{
     background-color: #3AB178;
     color: aliceblue;
     width: 200px;
+}
+
+.title{
+    font-weight: 600;
 }
 
 /* Footer */

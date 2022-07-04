@@ -37,7 +37,7 @@
 						<a class="nav-link" href="<?php base_url(); ?>Profile">Profile</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link login" href="<?php base_url() ?>Auth">Login</a>
+						<a class="nav-link login" href="<?php base_url() ?>Auth/login">Login</a>
 					</li>
 				</ul>
 			</div>
@@ -57,7 +57,7 @@
 				<h1 class="display-5 fw-lighter lh-1 mb-3 title-head">Find your best <span>FranChise</span></h1>
 				<p class="lead text-head">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo consequatur sunt incidunt obcaecati debitis sequi amet perspiciatis explicabo, expedita nemo?</p>
 				<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-					<button type="button" class="btn btn-lg px-6 me-md-2 button-header outline-none button-head">Franchise</button>
+					<a href="<?php base_url() ?>Franchise"><button type="button" class="btn btn-lg px-6 me-md-2 button-header outline-none button-head">Franchise</button></a>
 				</div>
 			</div>
 		</div>
@@ -80,7 +80,7 @@
 								<img src="assets/images/Logo.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
 							</li>
 							<li class="d-flex align-items-center">
-								<small class="link"><a href="#">Beverage &nbsp;
+								<small class="link"><a href="#">Food &nbsp;
 										<i class="fa-solid fa-caret-right"></i>
 									</a></small>
 							</li>

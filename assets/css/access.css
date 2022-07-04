@@ -39,13 +39,17 @@ body {
   border-top-right-radius: 0;
 }
 
-.button{
-    color: aliceblue;
-    background-color: #4FCB8F;
+.button:hover{
+  color: aliceblue;
+  background-color: #276648;
 }
 
 .sgp{
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sgp:hover{
+color: #4FCB8F;
 }

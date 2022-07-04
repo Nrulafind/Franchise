@@ -13,9 +13,8 @@ class Franchise extends CI_Controller
     //         redirect('auth/login');
     //     }
     // }
-    // public function index()
-    // {
-    //     $this->load->view('Franchise');
-    // }
-    // public function 
+    public function index()
+    {
+        $this->load->view('Franchise/index');
+    }
 }

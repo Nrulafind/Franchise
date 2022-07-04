@@ -15,9 +15,9 @@ class Auth extends CI_Controller
     //     if ($this->session->userdata('status') === 'login') {
     //         redirect('Homepage');
     //     }
-    //     if ($username = $this->input->post('username')) {
+    //     if ($email = $this->input->post('email')) {
     //         $password = $this->input->post('password');
-    //         echo json_encode($this->AuthModel->login($username, $password));
+    //         echo json_encode($this->AuthModel->login($email, $password));
     //     } else {
     //         $this->load->view('auth/login');
     //     }

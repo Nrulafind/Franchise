@@ -16,4 +16,7 @@ class Homepage extends CI_Controller
     // {
     //     $this->load->view('homepage/homepage_before');
     // }
+    public function news_list()
+    {
+    }
 }

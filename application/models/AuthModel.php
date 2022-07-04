@@ -6,13 +6,13 @@ class AuthModel extends CI_Model
 
     // protected $table = 'user';
 
-    // public function login($username, $password)
+    // public function login($email, $password)
     // {
-    //     $this->db->where('username', $username);
+    //     $this->db->where('$email', $password);
     //     if ($user = $this->db->get($this->table)->row()) {
     //         if (password_verify($password, $user->password)) {
     //             $data = array(
-    //                 'username' => $user->username,
+    //                 'email' => $user->username,
     //                 'password' => $user->password,
     //                 'id' => $user->id,
     //                 'status' => 'login'
@@ -23,11 +23,11 @@ class AuthModel extends CI_Model
     //             return 'password';
     //         }
     //     } else {
-    //         return "username";
+    //         return "email";
     //     }
     // }
 
-    // public function register($username, $password, $email)
+    // public function register($username,  $email, $password)
     // {
     //     $data = array(
     //         'username' => $username,

@@ -28,13 +28,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link " href="#">Home</a>
+              <a class="nav-link " href="<?php base_url() ?>Welcome">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active " aria-current="page" href="#">Franchise</a>
+              <a class="nav-link active " aria-current="page" href="<?php base_url() ?>Franchise">Franchise</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
+              <a class="nav-link" href="<?php base_url() ?>Profile">Profile</a>
             </li>
             <li class="nav-item">
               <a class="nav-link login" href="#">Login</a>

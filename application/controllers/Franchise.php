@@ -15,6 +15,6 @@ class Franchise extends CI_Controller
     }
     public function index()
     {
-        $this->load->view('Franchise/index');
+        $this->load->view('Franchise/franchise');
     }
 }

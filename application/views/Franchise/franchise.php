@@ -7,9 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
+    <link rel="stylesheet" href="<?php echo base_url('./assets/css/style.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('./assets/css/glider.css'); ?>">
 
     <title>FriendChise</title>
   </head>
@@ -28,13 +27,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link " href="<?php base_url() ?>Welcome">Home</a>
+              <a class="nav-link " href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active " aria-current="page" href="<?php base_url() ?>Franchise">Franchise</a>
+              <a class="nav-link active " aria-current="page" href="#">Franchise</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php base_url() ?>Profile">Profile</a>
+              <a class="nav-link" href="#">Profile</a>
             </li>
             <li class="nav-item">
               <a class="nav-link login" href="#">Login</a>
@@ -48,10 +47,131 @@
 
     <!-- Carousel Start -->
 
-    <div class="owl-carousel owl-theme">
-      <div class="item"><img src="assets/images/Food.png" alt=""></div>
-      <div class="item"><img src="assets/images/Food.png" alt=""></div>
-  </div>
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="news-text">
+        <h2 class="pb-2 border-bottom title">Food Category</h2>
+      </div>
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-xxl-8 px-4 py-5">
+          <div class="glider-contain">
+            <div class="glider">
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+            </div>
+          
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="news-text">
+        <h2 class="pb-2 border-bottom title">Beverages Category</h2>
+      </div>
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-xxl-8 px-4 py-5">
+          <div class="glider-contain">
+            <div class="glider">
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+            </div>
+          
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="news-text">
+        <h2 class="pb-2 border-bottom title">FnB Category</h2>
+      </div>
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-xxl-8 px-4 py-5">
+          <div class="glider-contain">
+            <div class="glider">
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+              <div>your content here</div>
+            </div>
+          
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Carousel End -->
 
@@ -74,7 +194,8 @@
     <!-- Footer End -->
 
     <script src="https://kit.fontawesome.com/25af777db1.js" crossorigin="anonymous"></script>
-    <script src="assets/js/owl.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="<?php echo base_url('./assets/js/glider.js'); ?>"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>

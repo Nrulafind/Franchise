@@ -41,6 +41,11 @@ body {
 
 .button:hover{
   color: aliceblue;
+  background-color: #4FCB8F;
+}
+
+.button:hover{
+  color: aliceblue;
   background-color: #276648;
 }
 

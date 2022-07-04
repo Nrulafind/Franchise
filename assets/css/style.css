@@ -60,6 +60,12 @@ span{
     width: 200px;
 }
 
+.button-head:hover{
+    background-color: #276648;
+    color: aliceblue;
+    width: 200px;
+}
+
 /* Body Content */
 
 .text-body{

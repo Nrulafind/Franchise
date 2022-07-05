@@ -40,7 +40,7 @@ nav{
     text-align: center;
 }
 
-.nav-item .login{
+.nav-item .login:hover{
     position: absolute;
     background-color: #276648;
     color: aliceblue!important;

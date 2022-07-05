@@ -13,7 +13,7 @@ class Auth extends CI_Controller
     public function login()
     {
         if ($this->session->userdata('status') === 'login') {
-            redirect('HomepageAfter');
+            redirect('Homepage');
         }
         if ($email = $this->input->post('email')) {
             $password = $this->input->post('password');

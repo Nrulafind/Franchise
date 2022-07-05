@@ -5,6 +5,6 @@ class Profile extends CI_Controller
 {
     public function index()
     {
-        $this->load->view('about_us');
+        $this->load->view('profile/profile');
     }
 }

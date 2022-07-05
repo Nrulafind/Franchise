@@ -40,6 +40,16 @@ nav{
     text-align: center;
 }
 
+.nav-item .login:hover{
+    position: absolute;
+    background-color: #276648;
+    color: aliceblue!important;
+    width: 106px;
+    border-radius: 5px;
+
+    text-align: center;
+}
+
 /* Header Heroes */
 
 .title-head{
@@ -93,6 +103,12 @@ small a:hover{
 .button-content{
     background-color: #3AB178;
     color: aliceblue;
+    width: 200px;
+}
+
+.button-content:hover{
+    background-color: #276648 !important;
+    color: aliceblue !important;
     width: 200px;
 }
 

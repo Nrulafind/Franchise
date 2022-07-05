@@ -61,8 +61,8 @@ span{
 }
 
 .button-head:hover{
-    background-color: #276648;
-    color: aliceblue;
+    background-color: #276648 !important;
+    color: aliceblue !important;
     width: 200px;
 }
 

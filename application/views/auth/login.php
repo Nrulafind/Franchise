@@ -37,7 +37,7 @@
           </div>
           <button class="w-100 btn btn-lg button" type="submit">Sign in</button>
           <br><br>
-          <p>Don't have an account ? <a href="#" class="sgp">Sign Up</a></p>
+          <p>Don't have an account ? <a href="<?php base_url(); ?>auth/register" class="sgp">Sign Up</a></p>
 
 
           <p class="mt-5 mb-3 text-muted">&copy; 2022 - FriendChise</p>

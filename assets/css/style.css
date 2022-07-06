@@ -98,6 +98,30 @@ small a:hover{
     color: #4acf8f;
 }
 
+/* Body Content - FriendChise */
+
+.category-button button{
+    background: none;
+    border: 2px solid #a5a5a5;
+    padding: 0 5px;
+
+    font-size: 14px;
+    color: #a5a5a5;
+    font-weight: 600
+}
+
+.category-button button:hover{
+    background: none;
+    border: none;
+    padding: 0 5px;
+}
+
+.category-button .active{
+    background: #276648 !important;
+    border: none;
+    color: aliceblue;
+}
+
 /* News Content */
 
 .button-content{

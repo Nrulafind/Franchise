@@ -45,6 +45,18 @@
 
     <!-- Navbar End-->
 
+    <!-- Button Header Start -->
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="col-lg-9 category-button">
+        <a href="#"><button type="button" class="btn btn-lg px-6 me-md-2 button-header outline-none button-head active">Food</button></a>
+        <a href="#"><button type="button" class="btn btn-lg px-6 me-md-2 button-header outline-none button-head">Beverages</button></a>
+        <a href="#"><button type="button" class="btn btn-lg px-6 me-md-2 button-header outline-none button-head">FnB</button></a>  
+      </div>
+    </div>
+
+    <!-- Button Header End -->
+
     <!-- Carousel Start -->
 
     <div class="container px-4 py-5">

@@ -10,9 +10,10 @@ class Homepage extends CI_Controller
             redirect('auth/login');
         }
         $this->load->model('HomepageModel');
+        $this->load->model('AuthModel')
     }
     public function index()
     {
-        $this->load->view('Homepage/homepage');
+        $this->load->view('homepage/homepage');
     }
 }

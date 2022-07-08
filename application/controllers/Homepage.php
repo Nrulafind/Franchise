@@ -13,6 +13,6 @@ class Homepage extends CI_Controller
     }
     public function index()
     {
-        $this->load->view('homepage/homepage');
+        $this->load->view('Homepage/homepage');
     }
 }

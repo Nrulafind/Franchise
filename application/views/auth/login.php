@@ -18,7 +18,7 @@
   <!-- Login Start -->
 
   <main class="form-signin">
-    <form action="" method="post">
+    <form action="<?php echo site_url('Auth/login') ?>" method="post">
       <img class="mb-4" src="<?php echo base_url('./assets/images/Logo-xl.png'); ?>" alt="" width="250" height="145">
       <br><br><br><br>
 

@@ -20,10 +20,10 @@ class AuthModel extends CI_Model
                 $this->session->set_userdata($data);
                 return 'sukses';
             } else {
-                return 'password';
+                redirect('Auth');
             }
         } else {
-            return "blok";
+            redirect('welcome');
         }
     }
 

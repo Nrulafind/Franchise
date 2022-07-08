@@ -25,7 +25,7 @@ class Auth extends CI_Controller
             $this->session->set_userdata($data_session);
             redirect('Homepage');
         } else {
-            redirect('Auth/Login');
+            redirect('/');
             json_encode('INVALID_LOGIN');
         }
     }

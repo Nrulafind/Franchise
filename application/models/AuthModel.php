@@ -23,7 +23,7 @@ class AuthModel extends CI_Model
                 return 'password';
             }
         } else {
-            return "email";
+            return "blok";
         }
     }
 

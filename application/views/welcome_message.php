@@ -48,7 +48,7 @@
 						<a class="nav-link" href="<?php base_url(); ?>Profile">Profile</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link login" href="<?= site_url('auth/login') ?>">Login</a>
+						<a class="nav-link login" href="<?php base_url() ?>Auth/login">Login</a>
 					</li>
 				</ul>
 			</div>

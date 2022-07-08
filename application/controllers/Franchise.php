@@ -7,7 +7,7 @@ class Franchise extends CI_Controller
     {
         parent::__construct();
         if ($this->session->userdata('status') !== 'login') {
-            redirect('Auth/Login');
+            redirect('auth/login');
         }
         $this->load->model('FranchiseModel');
     }

@@ -28,7 +28,7 @@
         <label for="floatingInput">Email address</label>
       </div>
       <div class="form-floating">
-        <input name="email" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
         <label for="floatingPassword">Password</label>
       </div>
 
@@ -37,7 +37,7 @@
           <input type="checkbox" value="remember-me"> Remember me
         </label>
       </div>
-      <a href="<?php base_url(); ?>Homepage"><button class="w-100 btn btn-lg button" type="submit">Sign in</button></a>
+      <a href="<?php base_url(); ?>Homepage/homepage"><button class="w-100 btn btn-lg button" type="submit">Sign in</button></a>
       <br><br>
       <p>Don't have an account ? <a href="<?php base_url(); ?>Auth" class="sgp">Sign Up</a></p>
 

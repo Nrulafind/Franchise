@@ -19,12 +19,13 @@ class Auth extends CI_Controller
         if ($cek == 1) {
             $data_session = array(
                 'email' => $e,
+                'password' => $p,
                 'status' => 'login'
             );
             $this->session->set_userdata($data_session);
-            redirect('homepage/homepage');
+            redirect('Homepage/index');
         } else {
-            redirect('welcome');
+            redirect('Auth/login');
             json_encode('INVALID_LOGIN');
         }
     }

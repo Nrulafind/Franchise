@@ -8,18 +8,27 @@ class Auth extends CI_Controller
     {
         parent::__construct();
         $this->load->model('AuthModel');
+        $email = $this->input->post('email');
+        $password = $this->input->post('password');
     }
 
-    public function login()
+    public function aksi_login()
     {
-        if ($this->session->userdata('status') === 'login') {
-            redirect('Homepage');
-        }
-        if ($email = $this->input->post('email')) {
-            $password = $this->input->post('password');
-            echo json_encode($this->AuthModel->login($email, $password));
+        $this->load->model('AuthModel');
+        $e = $this->input->post('email');
+        $p = $this->input->post('password');
+
+        $cek = $this->Mlogin->cek_login($e, $p)->num_rows();
+        if ($cek == 1) {
+            $data_session = array(
+                'email' => $e,
+                'status' => 'login'
+            );
+            $this->session->set_userdata($data_session);
+            redirect('homepage/homepage');
         } else {
-            $this->load->view('auth/login');
+            redirect('welcome');
+            json_encode('INVALID_LOGIN');
         }
     }
 

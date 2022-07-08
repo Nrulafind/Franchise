@@ -5,6 +5,11 @@ class AuthModel extends CI_Model
 {
 
     protected $table = 'user';
+    public function cek_login($E, $p)
+    {
+        $q = $this->db->get_where('user', array('email' => $E, 'password' => $p));
+        return $q;
+    }
 
     public function login($email, $password)
     {

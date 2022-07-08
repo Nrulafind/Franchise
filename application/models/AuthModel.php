@@ -14,7 +14,7 @@ class AuthModel extends CI_Model
                 $data = array(
                     'email' => $user->email,
                     'password' => $user->password,
-                    'id' => $user->id,
+                    'id_user' => $user->id_user,
                     'status' => 'login'
                 );
                 $this->session->set_userdata($data);
@@ -35,7 +35,7 @@ class AuthModel extends CI_Model
             'password' => password_hash($password, PASSWORD_DEFAULT)
         );
         $this->db->insert($this->table, $data);
-        $data['id'] = $this->db->insert_id();
+        $data['id_user'] = $this->db->insert_id_user();
         $data['status'] = 'login';
         return $data;
     }

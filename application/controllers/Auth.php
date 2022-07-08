@@ -15,7 +15,7 @@ class Auth extends CI_Controller
         $e = $this->input->post('email');
         $p = $this->input->post('password');
 
-        $cek = $this->Mlogin->cek_login($e, $p)->num_rows();
+        $cek = $this->AuthModel->cek_login($e, $p)->num_rows();
         if ($cek == 1) {
             $data_session = array(
                 'email' => $e,

@@ -17,7 +17,7 @@ class Auth extends CI_Controller
         }
         if ($email = $this->input->post('email')) {
             $password = $this->input->post('password');
-            echo json_encode($this->AuthModel->login($email, $password));
+            $this->AuthModel->login($email, $password);
         } else {
             $this->load->view('auth/login');
         }

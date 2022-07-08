@@ -8,13 +8,10 @@ class Auth extends CI_Controller
     {
         parent::__construct();
         $this->load->model('AuthModel');
-        $email = $this->input->post('email');
-        $password = $this->input->post('password');
     }
 
     public function aksi_login()
     {
-        $this->load->model('AuthModel');
         $e = $this->input->post('email');
         $p = $this->input->post('password');
 

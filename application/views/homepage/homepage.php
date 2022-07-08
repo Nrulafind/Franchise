@@ -36,9 +36,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Profile</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link login" href="#">Login</a>
-          </li>
         </ul>
       </div>
     </div>

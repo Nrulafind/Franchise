@@ -35,7 +35,7 @@
               <input type="checkbox" value="remember-me"> Remember me
             </label>
           </div>
-          <button class="w-100 btn btn-lg button" type="submit">Sign in</button>
+          <a href="<?php base_url();?>Homepage"><button class="w-100 btn btn-lg button" type="submit">Sign in</button></a>
           <br><br>
           <p>Don't have an account ? <a href="<?php base_url(); ?>auth/register" class="sgp">Sign Up</a></p>
 

@@ -7,7 +7,7 @@ class Homepage extends CI_Controller
     {
         parent::__construct();
         if ($this->session->userdata('status') !== 'login') {
-            redirect('auth/login');
+            redirect('Auth/login');
         }
         $this->load->model('HomepageModel');
         $this->load->model('AuthModel');

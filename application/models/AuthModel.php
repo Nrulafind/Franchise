@@ -4,7 +4,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class AuthModel extends CI_Model
 {
 
-    protected $table = 'user';
     public function cek_login($e, $p)
     {
         $q = $this->db->get_where('user', array('email' => $e, 'password' => $p));

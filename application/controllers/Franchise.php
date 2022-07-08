@@ -10,7 +10,6 @@ class Franchise extends CI_Controller
             redirect('Auth/Login');
         }
         $this->load->model('FranchiseModel');
-        $this->load->model('AuthModel');
     }
     public function index()
     {

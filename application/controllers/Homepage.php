@@ -10,7 +10,6 @@ class Homepage extends CI_Controller
             redirect('Auth/login');
         }
         $this->load->model('HomepageModel');
-        $this->load->model('AuthModel');
     }
     public function index()
     {

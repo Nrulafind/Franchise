@@ -6,15 +6,13 @@ class Homepage extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        if ($this->session->userdata('status') === 'login') {
-            redirect('Homepage');
-            $this->load->model('HomepageModel');
-        } else {
+        if ($this->session->userdata('status') !== 'login') {
             redirect('auth/login');
         }
+        $this->load->model('HomepageModel');
     }
     public function index()
     {
-        $this->load->view('homepage/homepage');
+        $this->load->view('Homepage/homepage');
     }
 }

@@ -13,6 +13,8 @@ class Franchise extends CI_Controller
     }
     public function index()
     {
+        $this->load->view('templates/navbarF');
         $this->load->view('Franchise/franchise');
+        $this->load->view('templates/footer');
     }
 }

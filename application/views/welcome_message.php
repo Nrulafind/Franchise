@@ -30,7 +30,7 @@
 
 	<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top ">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">
+			<a class="navbar-brand" href="<?php base_url() ?>Welcome">
 				<h4>FriendChise</h4>
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

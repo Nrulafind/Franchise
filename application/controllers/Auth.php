@@ -20,10 +20,10 @@ class Auth extends CI_Controller
             $data_session = array(
                 'email' => $e,
                 'password' => $p,
-                'status' => 'login'
+                'status' => 'login_user'
             );
             $this->session->set_userdata($data_session);
-            $this->load->view('Homepage/homepage');
+            redirect('Homepage');
         } else {
             $this->load->view('auth/login');
             json_encode('INVALID_LOGIN');
@@ -40,7 +40,7 @@ class Auth extends CI_Controller
             $data_session = array(
                 'email' => $e,
                 'password' => $p,
-                'status' => 'login'
+                'status' => 'login_admin'
             );
             $this->session->set_userdata($data_session);
             $this->load->view('Homepage/homepage');

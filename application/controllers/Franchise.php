@@ -9,9 +9,6 @@ class Franchise extends CI_Controller
         if ($this->session->userdata('status') !== 'login_user') {
             redirect('auth/login_user');
         }
-        else{
-            redirect('Franchise');
-        }
         $this->load->model('FranchiseModel');
     }
     public function index()

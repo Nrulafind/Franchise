@@ -28,7 +28,7 @@
 
   <!-- Navbar Start -->
 
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top ">
     <div class="container">
       <a class="navbar-brand" href=""><h4>FriendChise</h4></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

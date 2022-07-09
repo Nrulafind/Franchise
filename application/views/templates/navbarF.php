@@ -9,6 +9,7 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="<?php echo base_url('./assets/css/style.css'); ?>">
+      <link rel="stylesheet" href="<?php echo base_url('./assets/css/glider.css'); ?>">
 
   	<script type="text/javascript">
 		window.$crisp = [];
@@ -37,10 +38,10 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active " aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="<?php base_url() ?>Homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php base_url() ?>Franchise">Franchise</a>
+              <a class="nav-link active " aria-current="page" href="<?php base_url() ?>Franchise">Franchise</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php base_url(); ?>Profile">Profile</a>

@@ -52,8 +52,8 @@ class Auth extends CI_Controller
 
     public function register_user()
     {
-        if ($this->session->userdata('status') === 'login') {
-            redirect('auth/login');
+        if ($this->session->userdata('status') === 'login_user') {
+            redirect('auth/login_user');
         }
         if ($email = $this->input->post('email')) {
             $username = $this->input->post('username');

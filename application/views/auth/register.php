@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/access.css">
+    <link rel="stylesheet" href="<?php echo base_url('./assets/css/access.css'); ?>">
 
     <title>FriendChise</title>
   </head>
@@ -17,7 +17,7 @@
 
     <main class="form-signin">
         <form>
-          <img class="mb-4" src="assets/images/Logo-xl.png" alt="" width="250" height="145">
+          <img class="mb-4" src="<?php echo base_url('./assets/images/Logo-xl.png'); ?>" alt="" width="250" height="145">
           <br><br><br>
 
       
@@ -36,7 +36,7 @@
       
           <button class="w-100 btn btn-lg button" type="submit">Sign Up</button>
           <br><br>
-          <p>Have an account ? <a href="#" class="sgp">Sign in</a></p>
+          <p>Have an account ? <a href="<?php echo site_url('Auth/login_user'); ?>" class="sgp">Sign in</a></p>
 
 
           <p class="mt-5 mb-3 text-muted">&copy; 2022 - FriendChise</p>

@@ -30,7 +30,7 @@
 
 	<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top ">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">
+			<a class="navbar-brand" href="<?php base_url() ?>Welcome">
 				<h4>FriendChise</h4>
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
 						<a class="nav-link" href="<?php base_url(); ?>Profile">Profile</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link login" href="<?php base_url() ?>Auth/login">Login</a>
+						<a class="nav-link login" href="<?php base_url() ?>Auth/login_user">Login</a>
 					</li>
 				</ul>
 			</div>

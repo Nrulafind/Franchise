@@ -39,7 +39,7 @@
       </div>
       <a href="<?php base_url(); ?>Homepage/homepage"><button class="w-100 btn btn-lg button" type="submit">Sign in</button></a>
       <br><br>
-      <p>Don't have an account ? <a href="<?php base_url(); ?>Auth" class="sgp">Sign Up</a></p>
+      <p>Don't have an account ? <a href="<?php echo site_url('Auth/register_user'); ?>" class="sgp">Sign Up</a></p>
 
 
       <p class="mt-5 mb-3 text-muted">&copy; 2022 - FriendChise</p>

@@ -15,6 +15,7 @@ class News extends CI_Controller
             $gambar = $this->input->post('gambar');
 
             $all = [$judul, $isi, $gambar];
+            $this->db->insert_news($all);
         }
     }
 }

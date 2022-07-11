@@ -10,5 +10,6 @@ class NewsModel extends CI_Model
     // }
     public function insert_news($all)
     {
+        $this->db->insert('news', $all);
     }
 }

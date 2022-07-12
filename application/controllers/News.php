@@ -1,15 +1,21 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Homepage extends CI_Controller
+class News extends CI_Controller
 {
-    public function __construct()
+    public function index()
     {
-        parent::__construct();
-        if ($this->session->userdata('status') !== 'login') {
-            $this->load->view('auth/login');
-            redirect('/');
+        $this->load->view('News/news');
+    }
+    public function add_news()
+    {
+        if ($this->session->userdata('status') === 'login_admin') {
+            $judul = $this->input->post('judul');
+            $isi = $this->input->post('isi');
+            $gambar = $this->input->post('gambar');
+
+            $all = [$judul, $isi, $gambar];
+            $this->db->insert_news($all);
         }
-        $this->load->model('HomepageModel');
     }
 }

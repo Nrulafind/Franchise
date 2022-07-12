@@ -43,7 +43,7 @@ class Auth extends CI_Controller
                 'status' => 'login_admin'
             );
             $this->session->set_userdata($data_session);
-            $this->load->view('Homepage/homepage');
+            redirect('Homepage/homepage');
         } else {
             $this->load->view('auth/login');
             json_encode('INVALID_LOGIN');
@@ -53,14 +53,14 @@ class Auth extends CI_Controller
     public function register_user()
     {
         if ($this->session->userdata('status') === 'login_user') {
-            redirect('auth/login_user');
+            redirect('Homepage/homepage');
         }
         if ($email = $this->input->post('email')) {
             $username = $this->input->post('username');
             $password = $this->input->post('password');
             if ($user = $this->AuthModel->register_user($email, $username, $password)) {
                 $this->session->set_userdata($user);
-                echo json_encode('sukses');
+                redirect('Auth/login_user');
             } else {
                 echo json_encode('gagal');
             }
